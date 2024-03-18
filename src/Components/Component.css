@@ -1,0 +1,13 @@
+input::placeholder{
+  background-clip: text;
+  background-image: linear-gradient(to right,rgb(255, 183, 255),blue);
+  color: transparent;
+  -webkit-background-clip: text;
+  justify-self:center;
+  text-align:center;
+
+}
+input::placeholder:hover{
+  color:black;
+  background-color:red;
+}
